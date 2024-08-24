@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>MyDiary</title>
+</head>
+
+<body>
+    <div class = "layerOne">
+    <!--nav bar-->
+    <nav class="navbar">
+        <ul class = "nav">
+            <b>
+            <li><a href="diary.html">Diary</a></li>
+            </b>
+        </ul>
+        <div id="search-block">
+                <input type="text" id="searchTxt" placeholder="Search your stories..." class="form-control">
+        </div>
+    </nav>
+
+    <!--diaries and input diary-->
+        <div class="card" id = "input-block">
+            <div class="card-body">
+                <p class="card-text">Your secrets are safe with me, write your heart out <3</p>
+                <div>
+                    <textarea class="form-control" id="addTxt" rows="5" contenteditable="true"></textarea>
+                </div>
+                <br>
+                <a href="#" class="btn" id="addBtn">Add Story</a>
+            </div>
+        </div>
+        <!---->
+        <div id="stories">
+        </div>
+    </div>
+    <div class = "layerTwo">
+        
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
